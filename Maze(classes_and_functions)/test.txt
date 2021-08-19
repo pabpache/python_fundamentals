@@ -1,0 +1,33 @@
+
+#innaccesible inner points
+#        if self.walls > 3:
+#            for i in range(1,self.numb_lines+1):
+#                for j in range(1,self.length_line+1):
+#                    neighbours=0
+#                    print(self.framegrid[i][j])
+#                    print(type(self.framegrid[i][j]))
+#                    print(self.framegrid_o[i][j])
+#                    print(type(self.framegrid_o[i][j]))
+#                    if self.framegrid[i][j] in range(4,self.walls+1):
+#                        if self.framegrid_o[i-1][j] == '3' or self.framegrid_o[i-1][j] == '2':
+#                            neighbours +=1
+#                        if self.framegrid_o[i][j-1] == '1' or self.framegrid_o[i][j-1] == '3':
+#                            neighbours +=1
+#                        if self.framegrid_o[i][j] == '1' or self.framegrid_o[i][j] == '2':
+#                            neighbours +=1
+#                        elif self.framegrid_o[i][j] == '3':
+#                            neighbours +=2
+#                    if neighbours < 2:
+#                        self.framegrid[i][j]='x'
+                    
+#        print()
+#        for row in self.framegrid:
+#            print('   ', *row)  
+#            
+#        print()
+#        for row in self.framegrid_o:
+#            print('   ', *row)  
+            
+#        print()
+#        for row in self.grid:
+#            print('   ', *row)  
